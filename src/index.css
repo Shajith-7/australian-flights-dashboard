@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-blue: #38bdf8;
+  --accent-purple: #c084fc;
+  --accent-green: #4ade80;
+  --accent-orange: #fb923c;
+  
+  --border-radius: 16px;
+  --border-color: #334155;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
